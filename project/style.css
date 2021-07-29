@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    color:white;
+}
+div.main-header{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    height:100px;
+}
+div.logo{
+    width:25%;
+    align-self: center;
+    justify-content: start;
+    font-size:40px;
+}
+div.menu{
+    width: 70%;
+    align-self: center;
+    justify-content: center;
+}
+ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    padding-top:33px;
+    padding-bottom:33px;
+    font-size:30px;
+    transition: color 1s;
+}
+a{
+    height:100%;
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:yellow;
+}
+.boton{
+    padding:20px 10px;
+    margin:5px;
+    border-radius: 10px;
+    border-style: none;
+    font-size:25px;
+    cursor: pointer;
+}
+
+h2{
+    margin:1rem;
+    text-align:center;
+    font-size:40px;
+}
+div.bloques{
+    display:flex;
+    justify-content: space-around;
+}
+div.block1, div.block2{
+    margin-left:6rem;
+    margin-right:6rem;
+    padding:2rem;
+    text-align:center;
+}
+h1{
+    font-size:30px;
+    margin-bottom:1rem;
+}
+
+.start1, .start2{
+    padding:10px 30px;
+    border-radius: 10px;
+    border-style: none;
+    background:gray;
+    cursor:pointer;
+    font-size:12px;
+    margin-bottom: 1rem;
+}
+
+.text{
+    font-size:18px;
+    padding:5px;
+    border-radius: 10px;
+    background:black;
+    color:white;
+}
+
+div.teoria{
+    display:flex;
+    flex-direction:column;
+}
+
+div.what{
+    padding:3rem;
+    background-color: gray;
+}
+h4{
+    font-size:25px;
+    font-weight: bold;
+}
+div.for{
+    padding:3rem;
+    background-color: #f7f7f7;
+}
+
+
+
