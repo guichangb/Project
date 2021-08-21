@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "AkkuratPro-Regular";
+    src: url("font/fontr/AkkuratPro-Regular.woff");
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "AkkuratPro-Regular";
+}
+
+@import './header';
+@import './main';
+@import './footer';
+@import './buttons';

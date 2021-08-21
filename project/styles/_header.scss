@@ -1,0 +1,49 @@
+header{
+    color:white;
+    background-color: black;
+    position:relative;
+}
+div.main-header{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    height:50px;
+}
+
+div.logo{
+    width:60%;
+    align-self: center;
+    justify-content: start;
+    font-size:30px;
+    margin-left:20px;
+}
+
+div.menu{
+    width: 40%;
+    align-self: center;
+    justify-content: end;
+}
+ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+li{
+    align-self: center;
+    transition: color 1s;
+    font-size: 12px;
+}
+a{
+    height:100%;
+    color:white;
+    text-decoration: none;
+    margin:0px 20px 0px 20px;
+
+} 
+a:hover{
+    color:gray;
+}  
+
+

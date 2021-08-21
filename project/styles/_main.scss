@@ -1,0 +1,86 @@
+main{
+    background-color: #f7f7f7;
+}
+div.firstLand{
+    // height:520px;
+    display: flex;
+    flex-direction: column;
+}
+h1.pilotText{
+    font-size: 70px;
+    text-align: center;
+    padding:8rem 5rem 2rem 5rem;
+}
+h2.pilotProp{
+    text-align: center;
+    padding:4rem 12rem 2rem 12rem;
+    font-size: 25px;
+}
+
+
+div.secondLand{
+    background-color: white;
+}
+
+h2.mainProp{
+     margin:1rem;
+     text-align:center;
+     font-size:25px;
+ }
+
+ p.mainText{
+     text-align: center;
+     font-size: 15px;
+ }
+div.container{
+     display:flex;
+     justify-content: space-around;
+     padding:3px;
+ }
+ div.container-study, div.container-practice, div.container-random{
+     margin: 2rem 1rem 0rem 1rem;
+     padding:3rem;
+     text-align:center;
+ }
+
+
+h1.subTitles{
+     font-size:30px;
+     margin-bottom:4rem;
+}
+
+.text{
+     font-size:18px;
+     color:black;
+}
+
+.gridLand{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 650px 650px;
+    grid-template-rows: 650px 650px 650px;
+    
+}
+
+.gridLand div.theory_1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+
+.gridLand div.theory_3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end:4;
+}
+
+.gridLand div.img_1, div.img_2, div.img_3{
+    background-color: gray;
+}
+
+h4.gridText, p{
+    text-align: center;
+}
+

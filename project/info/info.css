@@ -1,0 +1,168 @@
+
+@font-face {
+    font-family: "AkkuratPro-Regular";
+    src: url("font/fontr/AkkuratPro-Regular.woff");
+}
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "AkkuratPro-Regular";
+}
+header{
+    color:black;
+    background-color: #f7f7f7;
+    position:relative;
+}
+div.main-header{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    height:50px;
+}
+
+div.logo{
+    width:60%;
+    align-self: center;
+    justify-content: start;
+    font-size:30px;
+    margin-left:20px;
+}
+
+div.menu{
+    width: 40%;
+    align-self: center;
+    justify-content: end;
+}
+ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+li{
+    align-self: center;
+    transition: color 1s;
+    font-size: 12px;
+}
+a{
+    height:100%;
+    color:black;
+    text-decoration: none;
+    margin:0px 20px 0px 20px;
+
+} 
+a:hover{
+    color:black;
+}  
+.boton{
+    padding:5px 22px;
+    margin:5px;
+    border-radius: 4px;
+    border-style: none;
+    font-size:12px;
+    cursor: pointer;
+    background-color: grey;
+}
+
+/* main */
+main{
+    background-color:black;
+}
+div.firstLand{
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+h1.pilotText{
+    font-size: 40px;
+    text-align: center;
+    padding:8rem 5rem 0rem 5rem;
+}
+h2.pilotProp{
+    text-align: center;
+    padding:2rem 12rem 5rem 12rem;
+    font-size: 15px;
+}
+
+.showFreq{
+    display:grid;
+    justify-content: center;
+    grid-template-columns:60rem;
+    grid-template-rows:35rem;
+}
+
+.showFreq div.exampleFreq{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2;
+    background:#f7f7f7;
+    margin-bottom:3rem;
+    color:Red;
+}
+
+div.secondLand{
+    background-color: gray;
+    text-align: center;
+}
+.startMain{
+    background-color: black;
+    color:white; 
+    border-radius:8px;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin:2rem 20rem;
+    font-size: large;
+    cursor: pointer;
+ }
+h1.pilotText{
+    font-size: 70px;
+    text-align: center;
+    padding:8rem 5rem 2rem 5rem;
+}
+h2.pilotProp{
+    text-align: center;
+    padding:4rem 18rem 2rem 18rem;
+    font-size: 15px;
+    color:white;
+}
+
+/* footer */
+
+footer{
+    background-color: #a9a9a9;
+    color:white;
+}
+
+div.finalFooter{
+    height:80px;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+}
+
+div.menu_footer_left{
+    width:20%;
+    align-items:center;
+    align-self: center;
+}
+div.logo_footer{
+    width:20%;
+    align-self: center;
+    color:black;
+    font-size:25px;
+    font-weight: bold;
+}
+div.menu_footer_right{
+    width:20%;
+    align-self: center;
+}
+
+div.rightsReserved{
+    color:black;
+    text-align: center;
+    font-size:12px;
+}
